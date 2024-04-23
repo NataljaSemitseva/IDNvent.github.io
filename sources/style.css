@@ -1,0 +1,856 @@
+
+*{
+	margin:0;
+		   }
+
+@font-face{
+font-family: Tele;
+src: url(Teletactile.ttf);
+}
+body{
+
+font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-style: normal;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+}
+
+.header{
+display: flex;
+align-items: center; 
+justify-content: space-between;
+margin-bottom: 50px; /*отсутп снизу*/
+box-sizing: border-box;
+background-color: #F1F8FE;
+}
+
+.logo{
+    margin-left: 50px;
+    width: 5%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 1s;
+    animation: wobble 2s 1;
+}
+
+.menu{
+display: flex;
+text-align: center;
+
+    }
+    .menu a{
+    text-decoration: none;
+    color: DeepSkyBlue;
+    margin:25px 25px;
+    font-weight: 900;
+    }
+    .menu a:hover{
+    color: DarkRed;
+    }
+    .glavnaja{
+        background:url(air.png);
+    
+        border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+        padding: 10px; /* Расстояние от картинки до рамки */
+        background:white; /* Цвет фона */
+        margin-right: 5px; /* Отступ справа */
+        margin-bottom: 5px; /* Отступ снизу */
+      height: 430px;
+     width: 98.2%;
+     background-image:url(air.png);
+margin-bottom: 50px;
+   
+    }
+    .glavnaja h1{
+        font-size: 30px;
+  margin-left: 70px;
+        height:75px;
+        width: 40%;
+        margin-top: 170px;
+
+
+    }
+    .glavnaja h2{
+        font-size: 22px;
+        font-weight: 10px;
+        height: 200px;
+        width: 40%;
+        margin-left: 70px; /* Отступ с боку в лево */
+    }
+    .glavnaja h1:hover{
+        color: DarkRed;
+    
+      
+        }
+    video{
+    width:40%;
+    position:absolute;
+    top:100px;
+    object-fit:cover;
+    padding: 10px; /* Расстояние от картинки до рамки */
+       margin-left: 55%;
+        float: left;
+        margin-top:75px;
+    
+    }
+    .razryv1{
+        height: 50px;
+    }
+    .razryv{
+    height: 300px;
+   
+        
+        }
+        .wrapper img {
+        width: 50%;
+         object-fit:cover;
+         padding: 10px; /* Расстояние от картинки до рамки */
+             margin-top:30px;
+         position: relative;
+         float:left; /* сделать картинку и текст в один ряд*/
+             }
+         .wrapper{
+        
+          
+    
+          border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+          padding: 10px; /* Расстояние от картинки до рамки */
+          background:white; /* Цвет фона */
+          margin-right: 5px; /* Отступ справа */
+          margin-bottom: 5px; /* Отступ снизу */
+        height: 430px;
+       width: 98.2%;
+       background-image:url(air.png);
+       margin-bottom: 50px;
+              
+        }
+        .wrapper h2{
+           
+          margin-left: 1000px;
+          margin-top: 40px;
+                  height:75px;
+                  width: 60%;
+            
+                      font-size: 40px;
+                      font-weight: 40px;
+      
+    
+        }
+    .wrapper ul{
+        font-size: 30px;
+        line-height: 20px;
+                
+                margin-left: 100px;
+                margin-top: 27px;
+                font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  
+    }
+        .wrapper li{
+            font-size: 30px;
+          line-height: 20px;
+                  
+                  margin-left: 770px;
+                  margin-top: 20px;
+                  font-family: "EB Garamond", serif;
+                  font-optical-sizing: auto;
+                  font-weight: weight;
+                  font-style: normal;
+                 
+    
+        }
+        .wrapper img{
+            transition: all 1s ease;
+        }
+        .wrapper img:hover{
+            transform: scale(1.3);
+            
+        }
+        
+        
+  
+
+    .agregat{
+        border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+          padding: 10px; /* Расстояние от картинки до рамки */
+          background:white; /* Цвет фона */
+          margin-right: 5px; /* Отступ справа */
+          margin-bottom: 5px; /* Отступ снизу */
+        height: 430px;
+       width: 98.2%;
+       background-image:url(air.png);
+       margin-bottom: 50px;
+    }
+   
+
+
+    
+    .agregat img {
+    width: 57%;
+    height: 410px;
+    }
+    .produkzija h2{
+    display: flex;
+    text-align: center;
+    
+    }
+    .produkzija a:hover{
+        color: DarkRed;
+        
+    }
+     .produkzija a{  
+         Line-height: 40px;
+         color: DeepSkyBlue;
+         font-weight: 700;
+        
+    }
+   .proektirovanie ul,
+    li{
+        font-size: 22px;
+        font-weight: 20px;
+       
+        line-height:30px;
+        margin-left: 150px;
+
+    }
+    .proektirovanie{
+        border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+        padding: 10px; /* Расстояние от картинки до рамки */
+        background:white; /* Цвет фона */
+        margin-right: 5px; /* Отступ справа */
+        margin-bottom: 5px; /* Отступ снизу */
+      height: 430px;
+     width: 98.2%;
+     background-image:url(air.png);
+     margin-bottom: 50px;
+      
+    }
+    .proektirovanie h2{
+    text-align: center;
+    height: 55px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    }
+    .proektirovanie p{ 
+        text-align: left;
+        Line-height: 30px;
+        font-size: 25px;
+        font-weight:10px;
+        margin-left: 200px;
+        margin-right: 160px;
+        font-family: "EB Garamond", serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+    
+    /*
+    
+     .proekt1 {
+    
+       display: flex;
+       transition: 3s ease-in-out;
+        
+  border-radius: 50%;
+  transform: rotate(-70deg);
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+     /*       padding: 15px; /* Расстояние от картинки до рамки */
+     /*       background: #666; /* Цвет фона */
+     /*       margin-right: 10px; /* Отступ справа */
+    /*   margin-top: -330px;
+    /* margin-left:-250px;
+     width: 500px;
+ 
+       
+        }
+        .proekt2 {
+         left: 50%;
+         position: absolute;
+         transition:3s ease-in-out;
+
+    border-radius: 50%;
+    transform: rotate(-75deg);
+      border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+       /*       padding: 15px; /* Расстояние от картинки до рамки */
+       /*       background: #666; /* Цвет фона */
+       /*       margin-right: 10px; /* Отступ справа */
+      /*   margin-top: -250px;
+         width: 500px;
+         margin-left:420px;
+     } 
+        .proekt1:hover{
+            transform: scale(1.5); 
+            transform: rotate(120deg);
+        }
+            
+        .proekt2:hover{
+            transform: scale(1.5); 
+            transform: rotate(120deg);
+        }
+
+  */
+.akzija {
+
+ 
+   
+  height: 450px;
+
+ background-image:url(air.png);
+
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+ 
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    margin-bottom: 50px;
+}
+/*
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.gallery a{
+    width: 35rem;
+    height: 20rem;
+    margin: 2rem;
+    border-radius:0. 5rem;
+    overflow: hidden;
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+  /*  padding: 15px; /* Расстояние от картинки до рамки */
+ /*   background: #666; /* Цвет фона */
+   /** margin-right: 10px; /* Отступ справа */
+
+/*
+.gallery a img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.gallery a img:hover{
+    transform: scale(1.3);
+}
+*/
+/*
+.gallery{
+    height: 500px;
+    background-image:url(air.png);
+    display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       align-items: center;
+       border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+     
+   
+
+/*
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 99.8%;
+    margin: 0 auto;
+    height: 500px;
+
+   
+}
+*/
+.myButton{
+    background-color: #007dc1;
+    border-radius: 3px;
+    border: 1px solid#007dc1;
+    display: inline-block;
+    cursor: pointer;
+    counter-reset: #fff;
+    padding: 6px 25px;
+    text-decoration: none;
+margin-bottom: 50px;
+}
+.myButton:hover {
+    background-color:#007dc1;
+
+}
+.myButton.active {
+    position: relative;
+    top: 1px;
+
+
+}
+.wrapper1{
+    width: 1200px;
+    height: 650px; /* стрелочки снизу*/
+    margin: 10px auto;
+    margin-bottom: 50px;
+
+}
+.left_right{
+    position: absolute;
+    display: none;
+    cursor: pointer;
+    margin: -290px 0 0 10px;
+color: #007dc1;
+  
+   
+
+}
+img#images {
+    border: double black 6px;
+    width: 1200px;/*размер картинки*/
+    height: 470px;
+}
+#left { /* стрелочки*/
+  background-color: transparent;
+  width: 0;
+  height: 20px;
+  border-top: 40px solid #fff;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  margin-left: -20px;
+  transform: rotate(90deg);
+  margin-left: 3px;
+}
+    #right {
+        background-color: transparent;
+        width: 0;
+        height: 20px;
+        border-top: 40px solid #fff;
+        border-right: 30px solid transparent;
+        border-left: 30px solid transparent;
+        margin-left: -20px;
+        transform: rotate(-90deg);
+    }
+
+.akzija img {
+width: 360px;
+height: 290px;
+margin-bottom: 5px;
+box-shadow: 0. .3rem .5rem rgba(0, 0, 0, .8);
+
+} 
+figcaption{ /* ссылки под агрегатами*/
+    text-align: center;
+ 
+        font-size: 22px;
+        margin-left: 20px;
+        font-weight: 900;
+        color: DeepSkyBlue;
+        margin-bottom: 70px;
+}
+
+.buttom a {
+    background-color: blue;
+    background-color:rgb(73, 137, 255);
+    border-radius: 6px;
+    color: white;
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button{
+  margin-top: -110px;
+    width: 300px;
+    margin-left:550px;
+    position: absolute;
+
+}
+
+  
+  .dannie h3{
+        font-weight: 10px;
+        height: 70px;
+        width: 50%;
+        margin-left: 700px; /* Отступ с боку в лево */
+        margin-top: 120px;
+        font-size: 30px;
+  }
+.dannie h2{
+    
+    font-size: 25px;
+    font-weight: 10px;
+  margin-left: 700px;
+    margin-top: 70px;
+}
+.dannie a:hover{
+        color: DarkRed;
+}
+footer{
+    padding:1;
+    background-color:#F1F8FE;
+    letter-spacing:2px;
+    font-size:20px;
+    text-align: center;
+    color:#1C84D0;
+    -webkit-text-stroke: 1px #BDE1FF;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+
+}
+/*.gallery{
+    display: grid;
+    grid-template-columns:minmax(100px, 500px) 1fr 1fr;
+    grid-template-columns:repeat(4, 1fr);
+   
+    grid-column-gap: 30px;
+    grid-gap: 20px 20px;
+margin-left: 50px;
+margin-right: 50px;
+    position: relative;
+    z-index: 5;
+    background-color: white;
+    border: 2px solid DeepSkyBlue ; /* Рамка вокруг фотографии */
+/*padding: 20px; /* Расстояние от картинки до рамки */
+  /*   margin-top: 150px;
+     margin-right: 10px; /* Отступ справа */
+   /*  margin-bottom: 10px; /* Отступ снизу */
+ /*    float: left;
+     object-fit: cover;
+     margin-left: 10px;
+ 
+}*/
+
+
+/*.container img{ 
+  height: 90%;
+  width: 90%;
+  transition: all 1s ease;
+  border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+         /*   padding: 10px; /* Расстояние от картинки до рамки */
+       /*    background: #666; /* Цвет фона */
+       /*   margin-right: 10px; /* Отступ справа */
+        /*   margin-bottom: 10px; /* Отступ снизу */
+           
+
+
+/*.gallery img:hover{
+
+     height: 180px;
+    transform: scale(3.0);
+   
+    
+
+}*/
+.row{
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 30px; /* Расстояние от картинки до рамки */
+    background:white; /* Цвет фона */
+    margin-right: 5px; /* Отступ справа */
+    margin-bottom: 5px; /* Отступ снизу */
+  height: 550px;
+ width: 95.7%;
+ background-image:url(air.png);
+ margin-bottom: 50px;
+  
+}
+.row h2{
+font-size: 22px;
+font-weight: 10px;
+
+
+text-align: center;
+margin-bottom: 30px;
+}
+
+ 
+  
+  .row > .column {
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .column {
+    float: left;
+    width: 30%;
+  }
+  .column{
+    width: 350px;
+    height: 250px;
+border: 10px solid white;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px;
+
+  }
+
+.column img{
+    width: 100%;
+    height: 100%;
+   
+    cursor: pointer;
+    transition: 5s; /* для плавного перехода*/
+  }
+  .column img:hover{
+    transform: scale(1.1);
+  
+  }
+  
+  /* The Modal (background) картинка на задний план большая */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img {
+    margin-bottom: -4px;
+  }
+  
+  .caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+
+
+  }
+  .dannie{
+    height: 500px;
+       background-image: url(air1.jpg);
+       /* display: flex;
+           flex-direction: row;
+           flex-wrap: nowrap;
+           align-items: center;*/
+           border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+         
+    }
+
+  .form{
+    width: 358px;
+height:360px ;
+  position: absolute;
+    padding: 30px 60px 100px;
+    background: rgba(26,25,25,0.3);
+    backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255,255,255,0.3);
+    margin-left: 50px;
+    margin-top: 5px;
+  
+  }
+  .form h1{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    line-height: 120px;
+
+   
+  }
+  .data_block{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap:15px;
+    margin-top: -50px;
+  
+  }
+  input{
+    background: transparent;
+    height: 25px;
+    border: none;
+    border-bottom: 1px solid #ffff;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #ffff;
+  
+  }
+  input::placeholder{
+    font-size: 14px;
+    color: gray;
+  }
+  input:focus::placeholder{
+    color: darkslategray;
+  }
+  input:focus{
+    outline: none;
+    
+  }
+  .name{
+    width: 82%;
+  
+  }
+  .mail{
+    width: 290px;
+  }
+  .phone{
+    width: 290px;
+  }
+  .text_area{
+    margin-top: 45px;
+    border: 1px solid #ffff;
+    border-radius:13px ;
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .message{
+    font-size: 1px;
+    color: gray;
+  }
+  textarea{
+    margin-top: 2px;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    color: #ffff;
+  }
+  textarea:focus::placeholder{
+    color: darkslategray;
+  }
+  textarea:focus{
+    outline: none;
+  }
+  .send{
+    width: 100%;
+    text-align: right;
+  }
+  button{
+    padding: 15px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: aqua;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background: rgba(0,0,0,0.3);
+  margin-top: 40px;
+  }
+  button:hover{
+  
+    background: #0000008a;
+  }
+  button:active{
+    transform: translateY(2px);
+  }
+
+@media(max-width:1000px) {
+    video { 
+        height:30%;
+    }
+} 
+

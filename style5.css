@@ -1,0 +1,141 @@
+
+*{
+	margin:0;
+		   }
+
+@font-face{
+font-family: Tele;
+src: url(Teletactile.ttf);
+}
+body{
+background-image:url(air.png);
+font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-style: normal;
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+
+}
+.header{
+display: flex;
+align-items: center; 
+justify-content: space-between;
+padding: 10px 60px; 
+box-sizing: border-box;
+background-color: #F1F8FE;
+}
+    
+.logotype1{
+   position:relative;
+    display:inline-block;
+    font-size:36px;
+    color:#337AB7;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+    text-decoration:none;
+    margin:20px 0 20px 26px;
+    line-height:16px;
+
+
+}
+    .vallox {
+    letter-spacing:1px;
+    font-size:60px;
+    color:#1C84D0;
+    -webkit-text-stroke: 1px #BDE1FF;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+    
+}
+.logotype1 p {
+    margin-left:22px;
+    margin-top:15px;
+    image-resolution: 5px;
+    font-size: 15px;
+}
+.vallox245{
+margin: 20px;
+display: flex;
+font-size: 25px;
+justify-content: space-between;
+align-items: center;
+
+}
+.vallox245{
+margin: 2px;
+display: flex;
+align-items: center;
+
+}
+.vallox245 img {
+    width:30;
+    height: 300px;
+}
+.text h2{
+text-align: center;
+}
+.text h3{ 
+    padding: 15px;
+    text-align: center;
+    Line-height: 20px;
+	    }
+	    .razryv{
+    height: 100px;
+}
+.text p{ 
+    padding: 20px;
+    Line-height: 45px;
+}
+    .textspez{
+        width:30;
+height: 100px;
+text-align: center;
+       }
+        .textspez h1{
+             
+    text-align: center;
+    Line-height: 150px;
+    margin-bottom: 50px;
+    padding: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    
+ 
+       }
+   .grid div{
+           
+  padding: 8px 30px;
+  background-color:#F1F8FE ;
+  border: 2px solid rgb(24 84 133);
+    
+  font-weight: 900;
+  font-size: 17px;
+    color:DeepSkyBlue ;
+    margin-right: 70px;
+    margin-left: 70px;
+
+       }
+
+ .grid{
+    display: grid;
+    grid-template-columns:minmax(1100px, 500px) 1fr 1fr;
+    grid-template-columns:repeat(2, 1fr);
+
+    grid-column-gap: 50px;
+    grid-gap: 20px 40px;
+}
+footer{
+    padding:1;
+    background-color:#F1F8FE;
+    letter-spacing:2px;
+    font-size:20px;
+    text-align: center;
+    color:#1C84D0;
+    -webkit-text-stroke: 1px #BDE1FF;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 700;
+}
